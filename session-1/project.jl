@@ -1,3 +1,7 @@
+import Pkg; Pkg.add("LinearAlgebra")
+import Pkg; Pkg.add("DataFrames")
+import Pkg; Pkg.add("Statistics")
+
 using LinearAlgebra, DataFrames, Statistics
 
 n = 1000
